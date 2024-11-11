@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Synchronize scroll positions across multiple scrollable containers",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "clean": "rimraf ./dist",
     "prebuild": "npm run lint",
